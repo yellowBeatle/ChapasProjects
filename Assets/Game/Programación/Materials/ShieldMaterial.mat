@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShieldMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 89954ca38a3c3244297346e9450bb312,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_97FC890E:
+        m_Texture: {fileID: 2800000, guid: ce047ddc4f618084aa9b1a296500347e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_25248ABD: 0.6
+    - Vector1_7CDC1128: 5
+    - Vector1_D3DC292D: 0.15
+    m_Colors:
+    - Color_8270B374: {r: 1024, g: 1024, b: 1024, a: 0.4980392}
+    - Vector2_743A12A1: {r: 0.05, g: 0.05, b: 0, a: 0}
